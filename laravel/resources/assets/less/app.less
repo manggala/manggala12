@@ -1,0 +1,153 @@
+@import "bootstrap/bootstrap";
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+body, label, .checkbox label {
+	font-weight: 300;
+}
+a:focus, *:focus {
+    outline:none;
+}
+
+.admin-side-bar .panel{
+	box-shadow:none;
+}
+.admin-side-bar .panel-default,.panel-group .panel + .panel{
+	margin:0px;
+	padding:0px;
+}
+.admin-side-bar .panel-default .panel-heading{
+	background-color:#34BFC1;
+	color: #fff;
+    border-radius : none;
+    box-shadow : none;
+}
+.admin-side-bar .panel-heading
+{
+	border-radius:0px;
+}
+.admin-side-bar .list-group:last-child .list-group-item:last-child
+{
+	border-radius:0px;	
+}
+
+
+.preloader{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 120px;
+    /* 
+    height: 120px; 
+    */
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.media-selected
+{
+	border: 3px solid #1E8CBE;
+    box-sizing: border-box;
+}
+.action-post-hover
+{
+    opacity:0.0;
+}
+.action-post-hover:hover
+{
+    opacity:1.0;
+}
+
+/* LOGIN */
+.login-container
+{
+    background-color: #D8D6D1;
+    min-height:100%;
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%;
+    text-align : center;
+}
+.login-container .panel.panel-default{
+    margin-top:5em;
+    vertical-align: middle;
+    background-color : #F2F2F2;
+}
+.login-container .login-header{
+    color : #B1ABA3;
+    text-align : center;
+    font-weight : 600;
+
+}
+.login-container .btn.btn-primary{
+    width : 100%;
+    background-color : #93B4CE;
+    border-color : #70A0C3;
+}
+.login-container .left{
+    text-align : left;
+}
+
+
+/* Administrator */
+.administrator-container .btn.btn-add-new{
+    margin: 0px 5px;
+    padding : 4px 5px;
+    border-radius : 0px;
+}
+.administrator-container .btn.btn-add-new:hover {
+    background-color: #3DCCD0;
+    color : #fff;
+    border-color : #34BFC1;
+
+}
+.administrator-container .panel.panel-default
+{
+    border-radius : 0px;
+}
+.administrator-container .panel.panel-default .panel-heading{
+    font-weight : bold;
+}
+
+.administrator-container .btn.btn-info{
+    border-radius : 0px;
+}
+.administrator-container .btn.btn-info:hover{
+    border-color : #29A4C6;
+}
+
+.administrator-container .panel.panel-default .btn.btn-default{
+    border-radius : 0px;
+}
+.administrator-container .panel.panel-default .btn.btn-default:hover {
+    background-color: #3DCCD0;
+    color : #fff;
+    border-color : #34BFC1;
+}
+.administrator-container #featuredImage{
+    text-align: center;
+    padding : 10px;
+}
+/* Media Modal */
+
+.img-media-modal
+{
+    max-width: 100%;
+    height: auto;
+}
+.img-media-modal-container {
+    width: 100%;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}

@@ -1,0 +1,9 @@
+- Aduan
+
+- Recent news -> fixed 4 line.
+- Statistik
+- Tambah kategori Video CCTV
+- Ganti search
+- Ganti galeri
+- Mitra -> Gerai SIM
+- Event
